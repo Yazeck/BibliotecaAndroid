@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvIdPrestamo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PR001"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvUsuario"
+            android:layout_below="@id/tvIdPrestamo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvLibro"
+            android:layout_below="@id/tvUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Libro"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvFechaPrestamo"
+            android:layout_below="@id/tvLibro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha Préstamo"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvFechaEntrega"
+            android:layout_below="@id/tvFechaPrestamo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha Entrega"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvEstatus"
+            android:layout_below="@id/tvFechaEntrega"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estatus"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/ibtnEditar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/icon_boton_edit"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="40dp"
+            android:contentDescription="Editar" />
+
+        <ImageButton
+            android:id="@+id/ibtnBorrar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_below="@id/ibtnEditar"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/icon_bote_basura"
+            android:background="@android:color/transparent"
+            android:contentDescription="Eliminar" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">biblioTK</string>
+    <string name="autor_label">Autor</string>
+    <string name="editar_autor">Editar autor</string>
+    <string name="eliminar_autor">Eliminar autor</string>
+
+
+    <string name="url_icon_menu">http://10.0.2.2:3000/static/icon_menu/</string>
+    <string name="url_portadas">http://10.0.2.2:3000/static/portadas_libros/</string>
+    <string-array name="lista_menu">
+        <item>usuarios</item>
+        <item>autores</item>
+        <item>editoriales</item>
+        <item>libros</item>
+        <item>prestamos</item>
+        <item>categorias</item>
+    </string-array>
+</resources>
